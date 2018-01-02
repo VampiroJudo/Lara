@@ -11,8 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome') ->with('name', 'World');
+Route::get('/tasks', function () {
+	$tasks = App\Tasks::all();
+
+	return view('tasks.index', compact('tasks'));
+});
+
+Route::get('/tasks/{task}', function ($id) {
+	$tasks = DB::table('tasks')->finc($id);
+
+	return view('tasks.show', compact('task'));
 });
 
 
