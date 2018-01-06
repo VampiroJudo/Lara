@@ -1,11 +1,12 @@
 <?php
 
 
-Route::get('/tasks', 'TasksController@index');
+Route::get('/', 'PostController@index');
 
-Route::get('/tasks/{tasks', 'TasksController@show');
+//controller => :Posts Controller
 
+//Eloquent mode => Post
 
-
+//migration =>create_posts_table
 
 
