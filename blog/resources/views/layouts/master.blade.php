@@ -13,7 +13,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
   </head>
 
   <body>
